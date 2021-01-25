@@ -8,11 +8,18 @@
 <body>
 
   <form id="data-form" target="_blank" action="http://localhost:5000/api/userid" method="POST">
-    Input: <input id="data-input" name="ctl00$cphBody$UserID" type="text"/>
+    <select name="ctl00$cphBody$UserID" id="data-input">
+      <option value="bulkmatic\bpgravel">bulkmatic\bpgravel</option>
+      <option value="bulkmatic\ebschech">bulkmatic\ebschech</option>
+      <option value="bulkmatic\rastraus">bulkmatic\rastraus</option>
+      <option value="bulkmatic\TWSAdam">bulkmatic\TWSAdam</option>
+      <option value="bulkmatic\TWSMark">bulkmatic\TWSMark</option>
+      <option value="bulkmatic\TWSUser">bulkmatic\TWSUser</option>
+    </select>
     <button type="submit">Submit</button>
    </form>
 
    <script src="jquery.min.js"></script>
-   <script src="script.js"></script>
+   <script src="script.js" defer></script>
 </body>
 </html>
